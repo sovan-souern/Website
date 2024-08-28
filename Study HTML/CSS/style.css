@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.header-image {
+    height: 60vh;
+    background: url(https://assets.cntraveller.in/photos/63d8e5103d7229d4cf308f01/16:9/w_1024%2Cc_limit/Prequel-lead.jpg);
+    background-size: cover;
+    background-position: center 25%;
+     
+}
+.cover{
+    height: 60vh;
+    background: rgba(0,0,0,0,7);
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    padding: 15px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.box{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.box h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    /* background-color: teal;
+    width: 45%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px; */
+}
+b
+.box button{
+    padding: 12px;
+    width: 200px;
+    font-size: 15px;
+    color: #fff;
+    background: rgba(0,191,255,1);
+    border: none;
+    border-radius: 40px;
+}
+button:hover{
+    background-color: gray;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 70%;
+    margin: auto;
+    grid-gap: 20px;
+}
+.serve{
+    grid-column: 1/3;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.serve p{
+    font-size: 15px;
+    line-height: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.box1 img{
+    width: 400px;
+}
+.box2 img{
+    width: 400px;
+    height: 270px;
+}
+.box3 img {
+    width: 400px;
+}
+.box4 img{
+    width: 400px;
+    margin-top: 20px;
+}
+.box5 img{
+    width: 400px;
+    margin-top: 20px;
+}
+.box6 img{
+    width: 400px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+/* .heading{
+    font-family: cursive;
+} */
+.heading h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+.home1{
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.heading1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box1 p{
+    text-align: center;
+    width: 400px;
+}
+.box2 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box2 p{
+    text-align: center;
+    width: 400px;
+}
+.box3 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box3 p{
+    text-align: center;
+    width: 400px;
+}
+.box4 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box4 p{
+    text-align: center;
+    width: 400px;
+}
+.box5 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box5 p{
+    text-align: center;
+    width: 400px;
+}
+.box6 h4{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.box6 p{
+    text-align: center;
+    width: 400px;
+}
+.home{
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    color: #fff;
+    background: teal;
+    border: none;
+    border-radius: 35px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
